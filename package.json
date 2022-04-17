@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Challenge Backend Node.jd Alkemy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abel MArtin Bergesio",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.3"
+  },
+  "devDependencies": {
+    "swagger-jsdoc": "^6.2.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
